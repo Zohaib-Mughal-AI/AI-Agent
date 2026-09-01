@@ -1,0 +1,18 @@
+Z-AI Agent FINAL24
+versionCode: 24
+versionName: 4.0.0-FINAL24
+
+Build:
+  gradle :app:assembleDebug --stacktrace
+
+GitHub Actions:
+  .github/workflows/android-apk.yml
+
+Artifact:
+  z-agent-final24-debug-apk
+
+Important:
+  API keys are supplied at runtime and encrypted locally.
+  Microphone/overlay/accessibility/notification access remain user-controlled.
+  Screen-off/background microphone behavior is subject to Android/OEM restrictions.
+  Third-party app UI automation is best-effort and cannot be guaranteed for every app version.
